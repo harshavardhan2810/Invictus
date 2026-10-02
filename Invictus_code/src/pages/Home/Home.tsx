@@ -1,22 +1,22 @@
 import { CTASection } from '@/components/CTA/CTASection'
 import { FacultySection } from '@/components/Faculty/FacultySection'
 import { HeroCarousel } from '@/components/Hero/HeroCarousel'
-import { AchieversSection } from '@/components/Home/AchieversSection'
+// import { AchieversSection } from '@/components/Home/AchieversSection'
 import { ActivitiesSection } from '@/components/Home/ActivitiesSection'
 import { NoticeBoard } from '@/components/Home/NoticeBoard'
 import { ProgramsSection } from '@/components/Home/ProgramsSection'
 import { QuickLinks } from '@/components/Home/QuickLinks'
-import { StatsBand } from '@/components/Home/StatsBand'
+// import { StatsBand } from '@/components/Home/StatsBand'
 import { WelcomeSection } from '@/components/Home/WelcomeSection'
 import { activities } from '@/data/activities'
 import { faculty } from '@/data/faculty'
 import {
-  achievers,
+  // achievers,
   ctaContent,
   heroSlides,
   notices,
   quickLinks,
-  stats,
+  //stats,
   upcomingEvents,
   welcomeContent,
 } from '@/data/home'
