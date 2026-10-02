@@ -50,7 +50,7 @@ export function WelcomeSection({ content }: { content: WelcomeContent }) {
               <p lang="sa" className="text-lg font-semibold text-secondary-300">
                 {siteConfig.motto.text}
               </p>
-              <p className="text-xs text-white/80">{siteConfig.motto.translation}</p>
+              {/* <p className="text-xs text-white/80">{siteConfig.motto.translation}</p> */}
             </div>
           </div>
 

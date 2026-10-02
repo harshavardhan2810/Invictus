@@ -31,7 +31,7 @@ export function HeritageFooter() {
         <p className="mt-3 font-display text-3xl font-bold tracking-[0.25em] text-white uppercase">{siteConfig.name}</p>
         <p className="mt-1 font-display text-xs tracking-[0.35em] text-secondary-300 uppercase">{siteConfig.descriptor}</p>
         <p lang="sa" className="mt-2 text-lg text-white/80">
-          {siteConfig.motto.text} — <span className="italic">{siteConfig.motto.translation}</span>
+          {/* {siteConfig.motto.text} — <span className="italic">{siteConfig.motto.translation}</span> */}
         </p>
         <ul className="mt-6 flex gap-2.5">
           {siteConfig.socialLinks.map((socialLink) => (
