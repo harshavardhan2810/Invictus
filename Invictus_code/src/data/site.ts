@@ -1,0 +1,57 @@
+export type SocialPlatform = 'facebook' | 'instagram' | 'linkedin' | 'youtube' | 'x' | 'whatsapp'
+
+export interface SocialLink {
+  platform: SocialPlatform
+  label: string
+  href: string
+}
+
+export interface ExternalLink {
+  label: string
+  href: string
+}
+
+// Placeholder details — replace with Invictus's real information before launch.
+// Affiliation numbers are left as XXXXXXX deliberately so they can't be mistaken
+// for another school's real CBSE registration.
+export const siteConfig = {
+  name: 'Invictus',
+  fullName: 'Invictus Senior Secondary School',
+  descriptor: 'Senior Secondary School',
+  motto: { text: 'विद्या ददाति विनयम्', translation: 'Knowledge bestows humility' },
+  establishedYear: 2001,
+  tagline: 'Nurturing confident, curious and compassionate learners since 2001.',
+  affiliation: {
+    board: 'CBSE, New Delhi',
+    affiliationNumber: 'XXXXXXX',
+    schoolCode: 'XXXXX',
+  },
+  academicYear: '2027–28',
+  admissionsNotice: 'Admissions open for 2027–28 · Classes 8, 9 & 11',
+  contact: {
+    address: 'Plot No. 12, Hitech City Road, Madhapur, Hyderabad, Telangana 500081',
+    phone: '+91 98765 43210',
+    phoneHref: 'tel:+919876543210',
+    whatsappHref: `https://wa.me/919876543210?text=${encodeURIComponent(
+      'Hello Invictus, I would like to know more about admissions for 2027–28.',
+    )}`,
+    email: 'info@invictus.example',
+    admissionsEmail: 'admissions@invictus.example',
+    officeHours: 'Mon – Sat, 8:30 AM – 4:30 PM',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Madhapur%2C+Hyderabad',
+  },
+  socialLinks: [
+    { platform: 'facebook', label: 'Facebook', href: '#' },
+    { platform: 'instagram', label: 'Instagram', href: '#' },
+    { platform: 'youtube', label: 'YouTube', href: '#' },
+    { platform: 'linkedin', label: 'LinkedIn', href: '#' },
+    { platform: 'x', label: 'X', href: '#' },
+  ] satisfies SocialLink[],
+  importantLinks: [
+    { label: 'CBSE', href: 'https://www.cbse.gov.in' },
+    { label: 'NCERT', href: 'https://ncert.nic.in' },
+    { label: 'JEE Main (NTA)', href: 'https://jeemain.nta.nic.in' },
+    { label: 'NEET UG (NTA)', href: 'https://neet.nta.nic.in' },
+    { label: 'DigiLocker', href: 'https://www.digilocker.gov.in' },
+  ] satisfies ExternalLink[],
+}
