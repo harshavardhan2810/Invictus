@@ -9,7 +9,7 @@ export interface Program {
   grade: number
   title: string
   romanNumeral: string
-  stage: 'Middle Stage' | 'Secondary Stage' | 'Senior Secondary Stage'
+  stage: 'Secondary Stage' | 'Senior Secondary Stage' | 'IIT-JEE Foundation & Preparation'
   tagline: string
   overview: string
   /** Empty for Classes 11–12, where subjects come from the chosen stream. */
@@ -22,14 +22,9 @@ export interface Program {
 // Senior secondary streams offered in both Class 11 and Class 12 (CBSE scheme of studies).
 const seniorSecondaryStreams: Stream[] = [
   {
-    name: 'Science (PCM)',
+    name: 'Science (MPC)',
     subjects: ['English Core', 'Physics', 'Chemistry', 'Mathematics', 'Computer Science / Physical Education'],
     idealFor: 'Engineering, architecture and JEE Main / Advanced aspirants',
-  },
-  {
-    name: 'Science (PCB)',
-    subjects: ['English Core', 'Physics', 'Chemistry', 'Biology', 'Mathematics / Psychology'],
-    idealFor: 'Medicine, life sciences and NEET (UG) aspirants',
   },
   {
     name: 'Commerce',
@@ -44,35 +39,34 @@ const seniorSecondaryStreams: Stream[] = [
 ]
 
 export const programs: Program[] = [
-  {
-    slug: 'class-8',
-    grade: 8,
-    title: 'Class 8',
-    romanNumeral: 'VIII',
-    stage: 'Middle Stage',
-    tagline: 'Strong foundations and a love for learning',
-    overview:
-      'Class 8 bridges the middle and secondary years. Following the NCERT curriculum, students strengthen core concepts through activity-based learning, lab work and projects, while early Olympiad preparation builds problem-solving confidence.',
-    subjects: [
-      'English',
-      'Hindi / Telugu (Second Language)',
-      'Telugu / Sanskrit (Third Language)',
-      'Mathematics',
-      'Science',
-      'Social Science',
-      'Computer Science',
-      'Art Education',
-      'Health & Physical Education',
-    ],
-    highlights: [
-      'Olympiad foundation (NSO, IMO, NCO)',
-      'Weekly science and computer lab sessions',
-      'Reading programme and public-speaking clubs',
-      'Parent–teacher meetings every term',
-    ],
-    assessment: 'Two periodic tests and two term examinations, with continuous assessment of projects and activities.',
-  },
-  {
+ {
+  slug: 'iit-training',
+  grade: 11,
+  title: 'IIT Training',
+  romanNumeral: 'XI',
+  stage: 'IIT-JEE Foundation & Preparation',
+  tagline: 'Build concepts, sharpen skills, achieve excellence',
+  overview:
+    'Our IIT training programme focuses on building strong conceptual foundations in Physics, Chemistry and Mathematics while developing problem-solving, analytical thinking and exam-taking skills. Students receive structured classroom learning, regular practice, mock tests and performance-based guidance to prepare for JEE Main and JEE Advanced.',
+  subjects: [
+    'Physics',
+    'Chemistry',
+    'Mathematics',
+    'Problem Solving & Logical Reasoning',
+    'JEE Main Preparation',
+    'JEE Advanced Preparation',
+  ],
+  highlights: [
+    'Strong foundation in Physics, Chemistry and Mathematics',
+    'JEE Main and JEE Advanced focused preparation',
+    'Regular practice tests and mock examinations',
+    'Doubt-clearing and individual academic guidance',
+    'Advanced problem-solving and analytical skills',
+  ],
+  assessment:
+    'Regular chapter-wise tests, periodic examinations, JEE-pattern mock tests and continuous performance analysis to track student progress.',
+},
+  /*{
     slug: 'class-9',
     grade: 9,
     title: 'Class 9',
@@ -122,7 +116,7 @@ export const programs: Program[] = [
       'Career counselling and stream selection guidance',
     ],
     assessment: 'CBSE Board Examination with internal assessment (periodic tests, portfolio and subject enrichment activities).',
-  },
+  },*/
   {
     slug: 'class-11',
     grade: 11,

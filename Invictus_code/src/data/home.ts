@@ -121,14 +121,14 @@ export const heroSlides: HeroSlide[] = [
 export const quickLinks: QuickLink[] = [
   {
     title: 'Admissions 2027–28',
-    description: 'Apply online for Classes 8, 9 & 11',
+    description: 'Apply online for Classes 11, 12 & IIT Entrance',
     href: '/admissions/apply',
     icon: GraduationCap,
     tone: 'secondary',
   },
   {
     title: 'Exam Papers',
-    description: 'CBSE board & sample papers',
+    description: 'State board & sample papers',
     href: '/downloads/exam-papers',
     icon: FileDown,
     tone: 'primary',

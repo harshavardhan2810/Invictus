@@ -16,18 +16,18 @@ export interface ExternalLink {
 // for another school's real CBSE registration.
 export const siteConfig = {
   name: 'Invictus',
-  fullName: 'Invictus Senior Secondary School',
-  descriptor: 'Senior Secondary School',
-  motto: { text: 'विद्या ददाति विनयम्', translation: 'Knowledge bestows humility' },
-  establishedYear: 2001,
+  fullName: 'Invictus IIT Academy',
+  descriptor: 'Inter College & IIT Academy',
+  motto: { text: 'Learn • Prepare • Succeed'},
+  establishedYear: 2026,
   tagline: 'Nurturing confident, curious and compassionate learners since 2001.',
   affiliation: {
-    board: 'CBSE, New Delhi',
+    board: 'TGBIE, Hyderabad',
     affiliationNumber: 'XXXXXXX',
-    schoolCode: 'XXXXX',
+    collegeCode: 'XXXXX',
   },
   academicYear: '2027–28',
-  admissionsNotice: 'Admissions open for 2027–28 · Classes 8, 9 & 11, 12',
+  admissionsNotice: 'Admissions open for 2027–28 · Classes 11 & 12',
   contact: {
     address: 'Plot No. 12, Hitech City Road, Madhapur, Hyderabad, Telangana 500081',
     phone: '+91 12345 67890',

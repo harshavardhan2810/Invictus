@@ -28,10 +28,10 @@ export function Home() {
       <HeroCarousel slides={heroSlides} />
       <QuickLinks links={quickLinks} />
       <WelcomeSection content={welcomeContent} />
-      <StatsBand stats={stats} />
+      {/* <StatsBand stats={stats} /> */}
       <NoticeBoard notices={notices} events={upcomingEvents} />
       <ProgramsSection programs={programs} />
-      <AchieversSection achievers={achievers} />
+      {/* <AchieversSection achievers={achievers} /> */}
       <ActivitiesSection activities={activities} />
       <FacultySection members={faculty} />
       <CTASection content={ctaContent} />

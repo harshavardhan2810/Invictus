@@ -35,7 +35,7 @@ function TopBar() {
           <span className="mx-2 text-primary-400">|</span>
           Affiliation No. {affiliation.affiliationNumber}
           <span className="mx-2 text-primary-400">|</span>
-          School Code {affiliation.schoolCode}
+          College Code {affiliation.collegeCode}
         </p>
         <div className="flex shrink-0 items-center gap-5">
           <a href={contact.phoneHref} className="inline-flex items-center gap-1.5 hover:text-white">

@@ -24,7 +24,7 @@ export const mainNavigation: NavItem[] = [
   {
     label: 'Programs',
     children: [
-      { label: 'All Programs', href: '/programs', description: 'Classes 8 to 12 at a glance' },
+      { label: 'All Programs', href: '/programs', description: 'Classes 11, 12 & IIT at a glance' },
       ...programs.map((program) => ({
         label: program.title,
         href: `/programs/${program.slug}`,
