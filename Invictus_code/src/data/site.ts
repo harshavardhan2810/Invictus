@@ -27,12 +27,12 @@ export const siteConfig = {
     schoolCode: 'XXXXX',
   },
   academicYear: '2027–28',
-  admissionsNotice: 'Admissions open for 2027–28 · Classes 8, 9 & 11',
+  admissionsNotice: 'Admissions open for 2027–28 · Classes 8, 9 & 11, 12',
   contact: {
     address: 'Plot No. 12, Hitech City Road, Madhapur, Hyderabad, Telangana 500081',
-    phone: '+91 98765 43210',
-    phoneHref: 'tel:+919876543210',
-    whatsappHref: `https://wa.me/919876543210?text=${encodeURIComponent(
+    phone: '+91 12345 67890',
+    phoneHref: 'tel:+911234567890',
+    whatsappHref: `https://wa.me/911234567890?text=${encodeURIComponent(
       'Hello Invictus, I would like to know more about admissions for 2027–28.',
     )}`,
     email: 'info@invictus.example',
