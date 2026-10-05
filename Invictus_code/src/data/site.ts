@@ -17,19 +17,21 @@ export interface ExternalLink {
 export const siteConfig = {
   name: 'Invictus',
   fullName: 'Invictus IIT Academy',
-  descriptor: 'Inter College & IIT Academy',
-  motto: { text: 'Learn • Prepare • Succeed'},
+  descriptor: 'Intermediate College & IIT Academy',
+  motto: { text: 'Learn • Prepare • Succeed' },
   establishedYear: 2026,
-  tagline: 'Nurturing confident, curious and compassionate learners since 2001.',
+  tagline:
+    'Building strong foundations, preparing students for competitive examinations and shaping successful futures.',
   affiliation: {
     board: 'TGBIE, Hyderabad',
     affiliationNumber: 'XXXXXXX',
     collegeCode: 'XXXXX',
   },
   academicYear: '2027–28',
-  admissionsNotice: 'Admissions open for 2027–28 · Classes 11 & 12',
+  admissionsNotice: 'Admissions open for 2027–28 · Intermediate & IIT-JEE Programmes',
   contact: {
-    address: 'Plot No. 12, Hitech City Road, Madhapur, Hyderabad, Telangana 500081',
+    address:
+      'Plot No. 12, Hitech City Road, Madhapur, Hyderabad, Telangana 500081',
     phone: '+91 12345 67890',
     phoneHref: 'tel:+911234567890',
     whatsappHref: `https://wa.me/911234567890?text=${encodeURIComponent(
@@ -38,7 +40,8 @@ export const siteConfig = {
     email: 'info@invictus.example',
     admissionsEmail: 'admissions@invictus.example',
     officeHours: 'Mon – Sat, 8:30 AM – 4:30 PM',
-    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Madhapur%2C+Hyderabad',
+    mapUrl:
+      'https://www.google.com/maps/search/?api=1&query=Madhapur%2C+Hyderabad',
   },
   socialLinks: [
     { platform: 'facebook', label: 'Facebook', href: '#' },
@@ -48,10 +51,9 @@ export const siteConfig = {
     { platform: 'x', label: 'X', href: '#' },
   ] satisfies SocialLink[],
   importantLinks: [
-    { label: 'CBSE', href: 'https://www.cbse.gov.in' },
-    { label: 'NCERT', href: 'https://ncert.nic.in' },
+    { label: 'TGBIE', href: 'https://tgbienew.cgg.gov.in/home.do' },
     { label: 'JEE Main (NTA)', href: 'https://jeemain.nta.nic.in' },
-    { label: 'NEET UG (NTA)', href: 'https://neet.nta.nic.in' },
+    { label: 'JEE Advanced', href: 'https://jeeadv.ac.in' },
     { label: 'DigiLocker', href: 'https://www.digilocker.gov.in' },
   ] satisfies ExternalLink[],
 }

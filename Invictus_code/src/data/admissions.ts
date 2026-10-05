@@ -38,25 +38,30 @@ export const admissionSteps: AdmissionStep[] = [
 ]
 
 export const eligibilityRules: EligibilityRule[] = [
-  { className: 'Class 8', criteria: 'Passed Class 7 from a recognised school; age 12–13 years as on 31 March 2027.' },
-  { className: 'Class 9', criteria: 'Passed Class 8 from a recognised school; age 13–14 years as on 31 March 2027.' },
   {
-    className: 'Class 11',
-    criteria:
-      'Passed Class 10 (CBSE or equivalent board). Science: minimum 75% aggregate with 70% in Mathematics and Science. Commerce and Humanities: minimum 60% aggregate.',
+    className: 'Intermediate 1st Year',
+    criteria: 'Students who have successfully completed Class 10 (SSC, CBSE or equivalent board) are eligible for admission. Students opting for IIT/JEE training should meet the academic requirements of the selected programme.',
   },
-  { className: 'Classes 10 & 12', criteria: 'Admission only on transfer, subject to seat availability and CBSE rules.' },
+  {
+    className: 'Intermediate 2nd Year',
+    criteria: 'Admission is available for students who have successfully completed Intermediate 1st Year or an equivalent course, subject to seat availability and applicable board rules.',
+  },
+  {
+    className: 'IIT / JEE Training',
+    criteria: 'Students enrolled in Intermediate or eligible students from equivalent backgrounds can opt for IIT/JEE preparation programmes. Admission and batch allocation may be based on academic performance and an entrance/assessment test, if applicable.',
+  },
 ]
 
 export const requiredDocuments: string[] = [
-  'Birth certificate (for Classes 8 and 9)',
-  'Transfer Certificate (TC) from the previous school, countersigned where applicable',
-  'Report card / marks memo of the previous class',
-  'Class 10 marks sheet and passing certificate (for Class 11)',
-  'Aadhaar card of the student and parents (photocopy)',
-  'Four recent passport-size photographs of the student',
+  'Class 10 marks memo / marks sheet',
+  'Class 10 Transfer Certificate (TC)',
+  'Class 10 passing certificate, if applicable',
+  'Birth certificate',
+  'Aadhaar card of the student',
+  'Aadhaar card of parent / guardian',
+  'Recent passport-size photographs of the student',
   'Caste / category certificate, if applicable',
-  'Address proof (electricity bill, rental agreement or passport)',
+  'Address proof, if required',
 ]
 
 export const importantDates: ImportantDate[] = [

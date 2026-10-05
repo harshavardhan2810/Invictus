@@ -76,45 +76,50 @@ export interface CtaContent {
 export const heroSlides: HeroSlide[] = [
   {
     id: 'welcome',
-    eyebrow: `CBSE Affiliated · Estd. ${siteConfig.establishedYear}`,
-    title: 'Where Every Student Rises Unconquered',
+    eyebrow: `Intermediate Education · Estd. ${siteConfig.establishedYear}`,
+    title: 'Build Your Future with Strong Foundations',
     description:
-      'A CBSE senior secondary school in Hyderabad for Classes 8 to 12, combining strong academics with values, sports and the arts.',
+      'A focused Intermediate college combining strong academic preparation with structured IIT-JEE training, experienced faculty and a student-centred learning environment.',
     image: images.heroCampus,
-    imageAlt: 'Aerial view of a hillside school campus during Sports Day',
-    primaryCta: { label: 'Apply for 2027–28', href: '/admissions/apply' },
+    imageAlt: 'Students learning together on a modern college campus',
+    primaryCta: { label: 'Admissions 2027–28', href: '/admissions/apply' },
     secondaryCta: { label: 'Explore Programs', href: '/programs' },
   },
+
   {
-    id: 'foundation',
-    eyebrow: 'IIT-JEE & NEET Foundation',
-    title: 'Board Excellence with Entrance Exam Readiness',
+    id: 'iit',
+    eyebrow: 'IIT-JEE Integrated Training',
+    title: 'Prepare for IIT-JEE with the Right Guidance',
     description:
-      'Integrated JEE Main / Advanced and NEET (UG) coaching from Class 9, taught on campus by experienced faculty.',
+      'Integrated Intermediate and IIT-JEE preparation designed to strengthen concepts, problem-solving skills and competitive exam readiness.',
     image: images.heroLab,
-    imageAlt: 'Students working on computers in the school lab',
-    primaryCta: { label: 'Class 11 Streams', href: '/programs/class-11' },
-    secondaryCta: { label: 'Download Papers', href: '/downloads/competitive-papers' },
+    imageAlt: 'Students attending a focused academic learning session',
+    primaryCta: { label: 'Explore IIT-JEE Training', href: '/programs/iit-training' },
+    secondaryCta: { label: 'View Courses', href: '/programs' },
   },
+
   {
-    id: 'heritage',
-    eyebrow: 'Campus Life in Hyderabad',
-    title: 'A Campus That Feels Like Home',
+    id: 'academics',
+    eyebrow: 'Intermediate Education',
+    title: 'Learn. Practice. Perform.',
     description:
-      'Spacious classrooms, modern labs, a library and a large playground — right in the heart of Madhapur.',
+      'A structured academic environment with regular assessments, focused classroom learning and continuous guidance to help students perform at their best.',
     image: images.heroHeritage,
-    imageAlt: 'Students on the ground in front of a heritage school building',
-    primaryCta: { label: 'View Activities', href: '/activities' },
+    imageAlt: 'Students studying and learning in a college environment',
+    primaryCta: { label: 'Explore Academics', href: '/academics' },
+    secondaryCta: { label: 'Meet Our Faculty', href: '/faculty' },
   },
+
   {
-    id: 'values',
-    eyebrow: 'Values & Culture',
-    title: 'Rooted in Indian Values, Ready for the World',
+    id: 'future',
+    eyebrow: 'Your Journey Starts Here',
+    title: 'From Intermediate to Your Dream Career',
     description:
-      'From Republic Day parades to Bathukamma and Annual Day, our students celebrate India’s diversity together.',
+      'Develop strong fundamentals, build confidence and prepare for competitive examinations with dedicated academic and IIT-JEE training.',
     image: images.heroCelebration,
-    imageAlt: 'Students in traditional attire with the national flag at a Republic Day celebration',
-    primaryCta: { label: 'Cultural Activities', href: '/activities/cultural' },
+    imageAlt: 'Students celebrating their academic journey and achievements',
+    primaryCta: { label: 'Apply Now', href: '/admissions/apply' },
+    secondaryCta: { label: 'Contact Us', href: '/contact' },
   },
 ]
 
@@ -150,21 +155,59 @@ export const quickLinks: QuickLink[] = [
 ]
 
 export const tickerItems: TickerItem[] = [
-  { text: 'Admissions open for 2027–28 — Classes 8, 9 and 11. Apply online now.', href: '/admissions/apply' },
-  { text: 'CBSE Class 10 & 12 Board Results 2026: 100% pass with 42 students scoring above 95%.' },
-  { text: 'JEE Main 2026: 18 students scored above the 99th percentile.' },
-  { text: 'Career guidance seminar on stream selection — 17 Oct 2026, 10:00 AM.', href: '/activities/seminars' },
-  { text: 'Previous year JEE, NEET and EAPCET papers now available for download.', href: '/downloads/competitive-papers' },
+  {
+    text: 'Admissions open for 2027–28 — Intermediate & IIT-JEE Programmes. Apply online now.',
+    href: '/admissions/apply',
+  },
+  {
+    text: 'Integrated IIT-JEE preparation with Intermediate education and focused academic guidance.',
+    href: '/programs/iit-training',
+  },
+  {
+    text: 'Regular assessments, practice tests and performance tracking to help students improve consistently.',
+    href: '/academics',
+  },
+  {
+    text: 'Experienced faculty providing focused guidance for Intermediate and competitive exam preparation.',
+    href: '/faculty',
+  },
+  {
+    text: 'Explore our Intermediate programmes and IIT-JEE training options for 2027–28.',
+    href: '/programs',
+  },
 ]
 
 export const notices: Notice[] = [
-  { title: 'Half-yearly examination timetable for Classes 8 to 12', date: '2026-09-28', isNew: true },
-  { title: 'Dussehra holidays: 20 Oct to 25 Oct 2026. School reopens on 26 Oct.', date: '2026-09-26', isNew: true },
-  { title: 'Parent–Teacher Meeting for Classes 10 & 12 on Saturday, 10 Oct 2026', date: '2026-09-24' },
-  { title: 'CBSE registration for Class 10 and 12 board examinations 2027 — submit details by 15 Oct', date: '2026-09-20' },
-  { title: 'Admission forms for 2027–28 available from 1 Nov 2026', date: '2026-09-18', href: '/admissions' },
-  { title: 'Inter-house sports competitions schedule released', date: '2026-09-15', href: '/activities/sports' },
-  { title: 'Fee payment reminder: second term fee due by 10 Oct 2026', date: '2026-09-12' },
+  {
+    title: 'Admissions open for Intermediate & IIT-JEE Programmes for 2027–28',
+	date: '2026-10-01',
+    isNew: true,
+  },
+  {
+    title: 'IIT-JEE orientation session for students and parents — registration now open',
+    date: '2026-09-28',
+    isNew: true,
+  },
+  {
+    title: 'Intermediate first-year academic assessment schedule released',
+    date: '2026-09-25',
+  },
+  {
+    title: 'IIT-JEE weekly test series and performance assessment schedule announced',
+    date: '2026-09-22',
+  },
+  {
+    title: 'Admission forms for the 2027–28 academic year are now available',
+    date: '2026-09-18',
+  },
+  {
+    title: 'Parent–Student academic counselling sessions available by appointment',
+    date: '2026-09-15',
+  },
+  {
+    title: 'Regular doubt-clearing and problem-solving sessions for IIT-JEE preparation',
+    date: '2026-09-12',
+  },
 ]
 
 // Upcoming events are drawn from the activities data so each event lives in one place.
@@ -197,32 +240,38 @@ export const achievers: Achiever[] = [
 
 export const welcomeContent: WelcomeContent = {
   eyebrow: 'Welcome to Invictus',
-  title: 'Educating minds, building character',
+  title: 'Building Strong Foundations for a Successful Future',
   paragraphs: [
-    `Founded in ${siteConfig.establishedYear}, Invictus Senior Secondary School is affiliated to the Central Board of Secondary Education (CBSE), New Delhi. We offer Classes 8 to 12 with Science, Commerce and Humanities streams at the senior secondary level.`,
-    'Our teachers blend the NCERT curriculum with activity-based learning, regular assessment and personal mentoring, so that every child achieves academic excellence while growing in confidence, discipline and values.',
+    `Founded in ${siteConfig.establishedYear}, Invictus is an Intermediate college focused on academic excellence and competitive examination preparation. We provide a structured learning environment for students pursuing their Intermediate education along with focused IIT-JEE training.`,
+    'Our experienced faculty combine concept-based teaching, regular assessments, problem-solving practice and personal guidance to help students build strong fundamentals, improve their confidence and prepare effectively for higher education and competitive examinations.',
   ],
-  image: { src: images.aboutCampus, alt: 'The main school building and playground' },
-  secondaryImage: { src: images.activityScience, alt: 'A student working in the chemistry laboratory' },
+  image: {
+    src: images.aboutCampus,
+    alt: 'Students learning together on the Invictus college campus',
+  },
+  secondaryImage: {
+    src: images.activityScience,
+    alt: 'Students attending a focused academic learning session',
+  },
   principal: {
-    name: 'Dr. S. Radhika Menon',
+    name: 'Dr. Name of principal',
     title: 'Principal',
     message:
-      'Our aim is simple — to help every child discover their strengths and the courage to pursue them. We are proud of our results, but prouder still of the kind, responsible young citizens our students become.',
+      'Our aim is to provide students with the right academic environment, guidance and opportunities to discover their potential. At Invictus, we focus on strong fundamentals, disciplined learning and preparing students confidently for the next stage of their academic journey.',
   },
   highlights: [
-    'CBSE affiliated, English medium',
-    'Integrated JEE / NEET foundation',
-    'Smart classrooms and Atal Tinkering Lab',
-    'Transport across Hyderabad & Cyberabad',
+    'Intermediate education with focused academic preparation',
+    'Integrated IIT-JEE Main & Advanced training',
+    'Experienced and dedicated faculty',
+    'Regular assessments and performance tracking',
   ],
   cta: { label: 'Admission Procedure', href: '/admissions' },
 }
 
 export const ctaContent: CtaContent = {
   eyebrow: `Admissions ${siteConfig.academicYear}`,
-  title: 'Give your child the Invictus advantage',
+  title: 'Start Your Journey Towards a Successful Future',
   description:
-    'Seats are limited for Classes 8, 9 and 11. Apply online today or visit our campus in Madhapur, Hyderabad.',
-  primaryCta: { label: 'Apply Online', href: '/admissions/apply' },
+    'Admissions are open for Intermediate programmes and integrated IIT-JEE training. Take the first step towards strong academics, competitive exam preparation and a brighter career.',
+  primaryCta: { label: 'Apply for Admission', href: '/admissions/apply' },
 }

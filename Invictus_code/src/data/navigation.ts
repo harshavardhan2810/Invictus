@@ -50,14 +50,18 @@ export const mainNavigation: NavItem[] = [
       {
         label: 'Exam Papers',
         href: '/downloads/exam-papers',
-        description: 'CBSE board and school examination papers',
+        description: 'Intermediate 1st and 2nd Year model papers',
       },
       {
-        label: 'Competitive Papers',
+        label: 'IIT-JEE Papers',
         href: '/downloads/competitive-papers',
-        description: 'JEE, NEET, CUET and EAPCET previous papers',
+        description: 'JEE Main and JEE Advanced practice papers',
       },
-      { label: 'Syllabus', href: '/downloads/syllabus', description: 'CBSE syllabus 2026–27' },
+      {
+        label: 'Syllabus',
+        href: '/downloads/syllabus',
+        description: 'Intermediate and IIT-JEE programme syllabus',
+      },
     ],
   },
   {

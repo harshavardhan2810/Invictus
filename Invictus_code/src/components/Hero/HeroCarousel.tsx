@@ -17,7 +17,7 @@ import {
 import type { HeroSlide } from '@/data/home'
 import { cn } from '@/lib/utils'
 
-const AUTOPLAY_DELAY_MS = 6000
+const AUTOPLAY_DELAY_MS = 4000
 
 export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const [api, setApi] = useState<CarouselApi>()
