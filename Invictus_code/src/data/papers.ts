@@ -19,7 +19,7 @@ export interface QuestionPaper {
 }
 
 // Placeholder PDF until actual papers are uploaded.
-const SAMPLE_FILE = '/papers/sample-question-paper.pdf'
+const SAMPLE_FILE = '/papers/Sample-model-paper.pdf'
 
 type PaperEntry = Omit<QuestionPaper, 'id' | 'fileUrl' | 'category'>
 
