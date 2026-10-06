@@ -27,17 +27,17 @@ export const announcements: Announcement[] = [
   {
     id: 'kokapet-campus-2027',
     type: 'campus',
-    title: 'Our New Campus at Kokapet Opens in June 2027',
+    title: 'Our New Campus at Kokapet Hyderabad Opens in June 2027',
     message:
       'Invictus is expanding! The new Kokapet campus brings smart classrooms, a 400 m athletics track and an indoor sports complex to West Hyderabad.',
     announcedOn: '2026-09-28',
     highlights: [
-      'Admissions open for Classes 8, 9 and 11',
+      'Admissions open for IIT-JEE Foundation & Preparation (Grades 11–12) and Intermediate (Grades 11–12)',
       'Transport from Narsingi, Gandipet and Financial District',
       'Campus tours every Saturday, 10 AM – 1 PM',
     ],
     image: { src: images.heroCampus, alt: 'Aerial view of a school campus' },
-    primaryCta: { label: 'Apply for Kokapet Campus', href: '/admissions/apply' },
+    primaryCta: { label: 'Apply Online', href: '/admissions/apply' },
     priority: 3,
     isActive: true,
   },
