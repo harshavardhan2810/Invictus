@@ -36,7 +36,7 @@ export function FormField({ label, fieldId, error, hint, isRequired, className, 
   )
 }
 
-export function FormSection({ title, children }: { title: string; children: ReactNode }) {
+export function FormSection({ title, children, nogrid }: { title: string; children: ReactNode; nogrid?: boolean }) {
   const headingId = useId()
 
   return (
@@ -47,7 +47,7 @@ export function FormSection({ title, children }: { title: string; children: Reac
       >
         {title}
       </h2>
-      <div className="grid gap-5 p-5 sm:grid-cols-2 sm:p-6">{children}</div>
+      <div className={nogrid ? "p-5" : "grid gap-5 p-5 sm:grid-cols-2 sm:p-6"}>{children}</div>
     </section>
   )
 }

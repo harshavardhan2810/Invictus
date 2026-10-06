@@ -30,6 +30,12 @@ export function CTASection({ content }: { content: CtaContent }) {
               <ArrowRight />
             </Link>
           </Button>
+          <Button asChild size="lg" variant="secondary">
+            <Link to="/enquire-us">
+              <Phone />
+              {siteConfig.contact.enquiryUS}
+            </Link>
+          </Button>
           <Button asChild size="lg" variant="outline-light">
             <a href={siteConfig.contact.phoneHref}>
               <Phone />

@@ -76,7 +76,7 @@ export const mainNavigation: NavItem[] = [
     ],
   },
   { label: 'Gallery', href: '/gallery' },
-  { label: 'Contact', href: '/#contact' },
+  { label: 'Contact', href: '/enquire-us' },
 ]
 
 // Flat menu used by the Minimal template — each item opens the section's overview page.

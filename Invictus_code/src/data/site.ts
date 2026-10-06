@@ -42,6 +42,7 @@ export const siteConfig = {
     officeHours: 'Mon – Sat, 8:30 AM – 4:30 PM',
     mapUrl:
       'https://www.google.com/maps/search/?api=1&query=Madhapur%2C+Hyderabad',
+    enquiryUS: 'Enquire US',
   },
   socialLinks: [
     { platform: 'facebook', label: 'Facebook', href: '#' },

@@ -81,7 +81,7 @@ export const programs: Program[] = [
     slug: 'iit-jee-training',
     grade: 11,
     title: 'IIT-JEE Training',
-    romanNumeral: 'I–II',
+    romanNumeral: 'IIT-JEE',
     stage: 'IIT-JEE Foundation & Preparation',
     tagline: 'Prepare with concepts, practice and precision',
     overview:

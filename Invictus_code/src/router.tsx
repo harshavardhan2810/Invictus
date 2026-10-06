@@ -4,6 +4,7 @@ import { ADMIN_LOGIN_PATH } from '@/auth/adminRoutes'
 import { PageLoader } from '@/components/common/PageLoader'
 import { PublicLayout } from '@/layouts/PublicLayout'
 import { ComingSoon } from '@/pages/ComingSoon/ComingSoon'
+import  EnquiryForm  from '@/pages/EnquiryForm/index';
 import { TemplateHome } from '@/templates/TemplateHome'
 import { NotFound } from '@/pages/NotFound/NotFound'
 
@@ -63,6 +64,7 @@ export const router = createBrowserRouter([
       },
 
       { path: 'gallery', element: <ComingSoon title="Gallery" /> },
+      { path: 'enquire-us', element: <EnquiryForm /> },
       { path: '*', element: <NotFound /> },
     ],
   },

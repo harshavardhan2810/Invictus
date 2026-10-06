@@ -32,8 +32,8 @@ export function Home() {
       <NoticeBoard notices={notices} events={upcomingEvents} />
       <ProgramsSection programs={programs} />
       {/* <AchieversSection achievers={achievers} /> */}
-      <ActivitiesSection activities={activities} />
       <FacultySection members={faculty} />
+      <ActivitiesSection activities={activities} />
       <CTASection content={ctaContent} />
     </>
   )

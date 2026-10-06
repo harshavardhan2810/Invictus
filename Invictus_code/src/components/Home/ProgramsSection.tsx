@@ -9,12 +9,12 @@ export function ProgramsSection({ programs }: { programs: Program[] }) {
       <Container>
         <SectionHeading
           eyebrow="Academic Programs"
-          title="Classes 8 to 12 under the CBSE curriculum"
+          title="Programs offered"
           description="A continuous journey from strong middle-school foundations to board examinations and entrance exam readiness."
           titleId="programs-heading"
           align="center"
         />
-        <ul className="mt-12 grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-5">
+        <ul className="mt-12 grid grid-cols-2 gap-3 sm:gap-3 lg:grid-cols-3">
           {programs.map((program) => (
             <li key={program.slug}>
               <ProgramCard program={program} />
